@@ -1,0 +1,63 @@
+insert into passenger values(6002,'33','Male','jack','101');
+insert into passenger values(6003,'30','Male','john','102');
+insert into passenger values(6004,'23','Female','Meena','103');
+insert into passenger values(6004,'22','Female','Anuja','104');
+insert into passenger values(6005,'22','Female','Anuja','104');
+insert into passenger values(6006,'19','Male','Aarush','105');
+insert into passenger values(6007,'66','Female','Helen','106');
+insert into passenger values(6008,'60','Male','Nitesh','107');
+insert into passenger values(6009,'16','Female','isha','108');
+insert into passenger values(6010,'56','Male','Roman','109');
+
+insert into station values(3005,'AGA','Agra_City');
+insert into station values(3006,'BA','Bandra');
+insert into station values(3007,'BE','Bareilly');
+insert into station values(3008,'BLP','Balrampur');
+insert into station values(3009,'KPG','Kopargaon');
+insert into station values(3010,'ADH','Andheri');
+insert into station values(3011,'BPL','Bhopal');
+
+insert into train_detail values(2002,'12:00','8:00','9',7,'Vande_Bharat','3002','3001');
+insert into train_detail values(2003,'2:00','1:00','8',9,'Ajanta_Express','3003','3002');
+insert into train_detail values(2004,'3:00','1:00','6',6,'Jaipur_Express','3004','3003');
+insert into train_detail values(2005,'4:00','9:00','2',5,'Bina_Express','3005','3004');
+insert into train_detail values(2006,'8:00','9:00','3',9,'Bikaner_SuperFast_Express','3006','3005');
+insert into train_detail values(2007,'14:00','6:00','8',10,'Chennai_Rajdhani_Express','3007','3006');
+insert into train_detail values(2008,'23:00','1:00','5',12,'Lucknow_Intercity','3008','3007');
+insert into train_detail values('2009','12:00','1:00','5',6,'Bareilly_Express','3009','3008');
+insert into train_detail values('2010','24:00','11:00','1',3,'WestBengal_Express','3010','3009');
+
+insert into user values(1002,'22','22/01/2002','xyzQgmail.com','Female','sanjiv chopra','4512369895');
+insert into user values(1003,'12','28/01/2002','xyz@gmail.com','' at line 1
+insert into user values(1003,'22','2/08/2002','xyzQgmail.com','Male','sanjiv Kapor','4512369895');
+insert into user values(1004,'21','3/09/2008','abc@gmail.com','Female','Heema Malni','4512369895');
+insert into user values(1005,'25','3/09/1999','aliya@gmail.com','Female','Aliya Bhat','123456792');
+insert into user values(1006,'45','05/01/1759','Ritesh@gmail.com','Male','Ritesh Deshmukh','123456792');
+insert into user values(1007,'75','02/01/1659','Amit@gmail.com','Male','Amitab Bacchan','123456792');
+insert into user values(1008,'85','08/09/1989','Nita@gmail.com','Female','Nita Ambani','123456792');
+insert into user values(1009,'88','08/08/1888','Mira@gmail.com','Female','Mira Murthi','2223336699');
+insert into user values(1010,'99','29/09/1989','sonu@gmail.com','Male','Sonu Nigam','2223336699');
+
+insert into booking values(4000,'02-03-2023','Complete','','5','100201','5500','2004');
+insert into booking values(4001,'Waiting','01-11-2023','3','100202','7500','2002');
+insert into booking values(4002,'RAC','05-1-2022','6','100203','9900','2003');
+insert into booking values(4003,'Complete','06-5-2022','6','100204','9999','2003');
+insert into booking values(4004,'Complete','06-8-2023','8','100205','9099','2005');
+insert into booking values(4005,'Complete', '06-8-2023', '8', '100205', '9099', '2005');
+insert into booking values(4006,'RAC',      '30-8-2022', '2', '100206', '1500', '2006');
+insert into booking values(4007,'Complete', '29-3-2023', '9', '100207', '6900', '2005');
+insert into booking values(4008,'Waiting',  '12-2-2023', '5', '100208', '5000', '2002');
+insert into booking values(4009,'Complete', '08-1-2023', '3', '100209', '9008', '2003');
+
+
+insert into booking_passengers values(4007,6000);
+insert into booking_passengers values(4003,6001);
+insert into booking_passengers values(4003,6002);
+insert into booking_passengers values(4002,6003);
+insert into booking_passengers values(4003,6004);
+insert into booking_passengers values(4002,6005);
+insert into booking_passengers values(4004,6006);
+insert into booking_passengers values(4003,6007);
+insert into booking_passengers values(4008,6008);
+insert into booking_passengers values(4009,6009);
+insert into booking_passengers values(4001,6010);

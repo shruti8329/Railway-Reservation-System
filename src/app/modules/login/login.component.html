@@ -1,0 +1,37 @@
+<button mat-icon-button style="float: right; margin: 6px" matDialogClose>
+  <mat-icon matdialogclose>close</mat-icon>
+</button>
+
+<mat-dialog-content align="center">
+  <header>
+    <h1>LOGIN</h1>
+  </header>
+
+  <p>
+    <mat-form-field align="center">
+      <input
+        matInput
+        name="username"
+        [(ngModel)]="username"
+        placeholder="username"
+      />
+    </mat-form-field>
+  </p>
+  <p>
+    <mat-form-field align="center">
+      <input
+        matInput
+        type="text"
+        name="password"
+        [(ngModel)]="password"
+        placeholder="password"
+      />
+    </mat-form-field>
+  </p>
+</mat-dialog-content>
+<mat-dialog-actions align="center">
+  <button mat-raised-button color="primary" (click)="loginUser()">
+    SIGN IN
+  </button>
+  <button mat-raised-button color="warn">REGISTER</button>
+</mat-dialog-actions>
